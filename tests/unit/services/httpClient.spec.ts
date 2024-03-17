@@ -3,9 +3,9 @@ import { Agent } from 'https'
 
 import nock = require('nock')
 
-import Logger from '@diia-inhouse/diia-logger'
-import { mockClass } from '@diia-inhouse/test'
-import { HttpMethod, HttpStatusCode } from '@diia-inhouse/types'
+import Logger from '@kant2002-diia-inhouse/diia-logger'
+import { mockClass } from '@kant2002-diia-inhouse/test'
+import { HttpMethod, HttpStatusCode } from '@kant2002-diia-inhouse/types'
 
 import { HttpClientService } from '../../../src'
 

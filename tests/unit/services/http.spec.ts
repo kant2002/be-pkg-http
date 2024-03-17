@@ -2,10 +2,10 @@ import { Agent, RequestOptions } from 'http'
 
 import nock = require('nock')
 
-import Logger from '@diia-inhouse/diia-logger'
-import { RequestTimeoutError, ServiceUnavailableError } from '@diia-inhouse/errors'
-import { mockClass } from '@diia-inhouse/test'
-import { HttpMethod, HttpProtocol, HttpStatusCode } from '@diia-inhouse/types'
+import Logger from '@kant2002-diia-inhouse/diia-logger'
+import { RequestTimeoutError, ServiceUnavailableError } from '@kant2002-diia-inhouse/errors'
+import { mockClass } from '@kant2002-diia-inhouse/test'
+import { HttpMethod, HttpProtocol, HttpStatusCode } from '@kant2002-diia-inhouse/types'
 
 import { HttpService } from '../../../src'
 

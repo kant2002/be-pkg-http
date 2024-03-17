@@ -6,8 +6,8 @@ import * as tsl from 'tls'
 import to from 'await-to-js'
 import { cloneDeep } from 'lodash'
 
-import { RequestTimeoutError, ServiceUnavailableError } from '@diia-inhouse/errors'
-import { HttpMethod, HttpProtocol, Logger, PeerCertificateWithSHA256 } from '@diia-inhouse/types'
+import { RequestTimeoutError, ServiceUnavailableError } from '@kant2002-diia-inhouse/errors'
+import { HttpMethod, HttpProtocol, Logger, PeerCertificateWithSHA256 } from '@kant2002-diia-inhouse/types'
 
 import { ExtendedRequestOptions, HttpServiceResponse, HttpServiceResponseResult } from '../interfaces'
 
